@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>evolution</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="icon" href="Images/favicon.ico" />
+<Style>
+    
+
+    .containerss {
+        
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+       
+    }
+    .container-organisation {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+           margin: 20px;
+            width: 90%;
+            text-align: left;
+            transition: transform 0.2s ease-in-out;
+            line-height: 1.6;
+            transition: transform 0.2s ease-in-out;
+        }
+    
+    p {
+        color: #333;
+        line-height: 1.6;
+    }
+
+    
+
+        
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+ 
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+ 
+        th {
+            background-color: #0b0b0b;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        a {
+            color: #188b5b;
+            text-decoration: none;
+           
+        }
+
+      
+       
+        .container-competences {
+            background-color: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            margin: 20px;
+            width: 90%;
+            text-align: left;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .container-competences ul {
+            text-align: left;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .container-competences ul li {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            padding: 8px 0;
+        }
+
+        .container-competences ul li::before {
+            content: "✔";
+            color: #007bff;
+            font-weight: bold;
+            margin-right: 8px; /* Réduit l'espace entre le ✔ et le texte */
+            font-size: 18px;
+        }
+        
+
+.hero1 {
+    background: url('Images/hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-top: 110px;
+
+    font-size: 4rem;
+    margin-bottom: 10px;
+    
+}
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+   
+}
+</Style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img id="logo" src="Images/logo.png" alt="Logo"/>
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Accueil</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html#introduction">Introduction</a></li>
+                        <li><a href="index.html#contexte">Contexte du Projet</a></li>
+                        <li><a href="index.html#bourse"> La Bourse</a></li>
+                        <li><a href="index.html#motivation">Motivation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="projet.html">Notre Projet</a>
+                    <ul class="dropdown">
+                        <li><a href="projet.html#def">Définition</a></li>
+                        <li><a href="projet.html#fonction">Les fonctionnalités</a></li>
+                        <li><a href="projet.html#tech">Les technologies</a></li>
+                        <li><a href="projet.html#exemple">Exemple</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="evolution.html" >Evolution</a>
+                    <ul class="dropdown">
+                        <li><a href="#organization">Organisation</a></li>
+                        <li><a href="#realisations">Réalisations</a></li>
+                        <li><a href="#compt">Compétences Acquises</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="objectif.html" >Objectif</a>
+                    <ul class="dropdown">
+                        <li><a href="objectif.html#objectif">Objectifs</a></li>
+                        <li><a href="objectif.html#tab">Tableau des taches</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="presentation.html" >Qui Sommes Nous ?</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Nous contacter</a>
+                    <ul class="dropdown">
+                        <li><a href="contactus.html#info-pro">Via coordonnées pro</a></li>
+                        <li><a href="contactus.html#info-univ">Via l'université</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+            
+
+                <h1 id="hero" >Organisation</h1>
+            
+                <figure class="image-container">
+                    <img src="./Images/org.jpg" alt="Organisation" style="margin-bottom: 50px">
+                </figure>
+            
+
+            
+
+        
+    </header>
+        <Main>
+            
+
+        <section class="section">
+            <div class="container-organisation" id="organization">
+                <h2> Notre Organisation</h2>
+                <p>Nous sommes un groupe de trois étudiants et nous suivons un encadrement structuré pour avancer efficacement dans notre travail :</p>
+                <ul>
+                    <li>Après chaque TD, nous bénéficions du suivi et des conseils de notre professeur.</li>
+                    <li>Nous progressons progressivement, en fonction des objectifs définis.</li>
+                    <li>Notre méthode principale consiste à travailler individuellement le TD.</li>
+                    <li>Nous réfléchissons et générons des idées chacun de notre côté.</li>
+                    <li>Nous nous réunissons ensuite pour discuter, partager et rassembler nos idées.</li>
+                    <li>Enfin, nous finalisons ensemble le rendu final du travail.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="section">
+            <div class="containerss" id="realisations">
+                <h2>Réalisations</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Realisation</th>
+                            <th>Description</th>
+                            <th>Résultat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Document de spécification de projet</td>
+                            <td>Un document primordial pour la communication, conception et réalisation du projet par la suite.</td>
+                            <td><a href="cahier_de_charges.pdf">Voir</a></td>
+                        </tr>
+                        <tr>
+                            <td>Diagramme de classe</td>
+                            <td>Représente la structure statique d’un système en modélisant les classes, leurs attributs, méthodes et relations (héritage, association, etc.). Il est utilisé pour définir l’architecture logicielle.</td>
+                            <td><a href="Images/diagramme_classe.png" download="Images/diagramme_classe.png">Voir</a></td>
+                        </tr>
+                        <tr>
+                            <td>Diagramme des cas d'utilisations</td>
+                            <td> Illustre les interactions entre les acteurs (utilisateurs ou systèmes externes) et les fonctionnalités du système. Il permet de comprendre les besoins et les scénarios d’utilisation.</td>
+                            <td><a href="#realisations">EN COURS</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container-competences" id="compt">
+                <h2> Compétences Acquises</h2>
+                <ul>
+                    <li>Rédaction d’un cahier des charges structuré 📜</li>
+                    <li>Analyse des besoins et définition des exigences 🎯</li>
+                    <li>Modélisation des classes et relations en UML 🏗️</li>
+                    <li>Création d’un diagramme de cas d'utilisation 🎭</li>
+                    <li>Compréhension des concepts de conception logicielle 🖥️</li>
+                </ul>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; 2025 - Projet de Génie Logiciel. Tous droits réservés.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <nav class="sidebar">
+                    <ul >
+                        <li><a href="#organization">Organisation</a></li>
+                        <li><a href="#realisations">Réalisations</a></li>
+                        <li><a href="#compt">Compétences Acquises</a></li>
+                    </ul>
+                </nav>
+                <a href="#hero" class="back-to-top">
+                    <div class="circle">
+                        <i class="fas fa-arrow-up"></i>
+                    </div>
+                </a>
+            </div>
+        </footer>
+</body>
+
+</html>

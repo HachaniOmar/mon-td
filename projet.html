@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Notre Projet - La Bourse</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="icon" href="Images/favicon.ico" />
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img id="logo" src="Images/logo.png" alt="Logo"/>
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Accueil</a>
+                    <ul class="dropdown">
+                        <li><a href="index.html#introduction">Introduction</a></li>
+                        <li><a href="index.html#contexte">Contexte du Projet</a></li>
+                        <li><a href="index.html#bourse">La Bourse</a></li>
+                        <li><a href="index.html#motivation">Motivation</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="projet.html">Notre Projet</a>
+                    <ul class="dropdown">
+                        <li><a href="#def">Définition</a></li>
+                        <li><a href="#fonction">Les fonctionnalités</a></li>
+                        <li><a href="#tech">Les technologies</a></li>
+                        <li><a href="#exemple">Exemple</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="evolution.html" >Evolution</a>
+                    <ul class="dropdown">
+                        <li><a href="evolution.html#organization">Organisation</a></li>
+                        <li><a href="evolution.html#realisations">Réalisations</a></li>
+                        <li><a href="evolution.html#compt">Compétences Acquises</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="objectif.html" >Objectif</a>
+                    <ul class="dropdown">
+                        <li><a href="objectif.html#objectif">Objectifs</a></li>
+                        <li><a href="objectif.html#tab">Tableau des taches</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="presentation.html">Qui Sommes Nous ?</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Nous contacter</a>
+                    <ul class="dropdown">
+                        <li><a href="contactus.html#info-pro">Via coordonnées pro</a></li>
+                        <li><a href="contactus.html#info-univ">Via l'université</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <div>
+            <h1 id="hero" >Notre Projet</h1>
+            
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Section Définition -->
+        <section id="def" class="section">
+            <div class="container">
+                <h2>Définition</h2>
+                <p>
+                    Notre projet est une <strong>simulation de la bourse</strong> conçue pour permettre aux utilisateurs de comprendre et d'interagir avec les marchés financiers de manière interactive. Il s'agit d'une plateforme éducative et ludique qui reproduit les mécanismes réels de la bourse.
+                </p>
+                <p>
+                    L'objectif principal est de fournir un environnement réaliste où les utilisateurs peuvent apprendre les bases de l'investissement, gérer un portefeuille, et réagir aux événements économiques.
+                </p>
+                <figure class="image-container">
+                    <img src="Images/simulateur.png" alt="Simulation Boursière"/>
+                    <figcaption>Simulation de la Bourse</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Section Fonctionnalités -->
+        <section id="fonction" class="section bg-light">
+            <div class="container">
+                <h2>Fonctionnalités</h2>
+                <p>
+                    Le projet comprend plusieurs fonctionnalités clés pour simuler l'expérience de la bourse :
+                </p>
+                <div class="grid">
+                    <div class="card">
+                        <i class="fas fa-sliders-h"></i>
+                        <h3>Choix du Mode de Difficulté</h3>
+                        <p>Les utilisateurs peuvent choisir entre différents niveaux de difficulté pour adapter la simulation à leur niveau d'expertise.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-building"></i>
+                        <h3>Création d'Entreprises</h3>
+                        <p>Créez des entreprises avec des caractéristiques spécifiques : capital de départ, secteur d'activité, taille, etc.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Suivi des Performances</h3>
+                        <p>Visualisez les performances des entreprises, y compris les bénéfices, les pertes, et les dividendes distribués.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Événements Aléatoires</h3>
+                        <p>Des événements aléatoires comme des crises économiques ou des innovations technologiques influencent le marché.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <h3>Achat et Vente</h3>
+                        <p>Achetez et vendez des actions et des obligations pour gérer votre portefeuille.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fas fa-wallet"></i>
+                        <h3>Gestion de Portefeuille</h3>
+                        <p>Suivez la performance de votre portefeuille en temps réel avec des indicateurs détaillés.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Technologies -->
+        <section id="tech" class="section">
+            <div class="container">
+                <h2>Les technologies</h2>
+                <p>
+                    Pour réaliser ce projet, nous utilisons des technologies modernes et robustes, adaptées à la création d'une simulation boursière interactive. Voici les principaux outils et langages que nous avons choisis :
+                </p>
+                <div class="grid">
+                    <!-- Java -->
+                    <div class="card">
+                        <i class="fab fa-java"></i>
+                        <h3>Java</h3>
+                        <p>
+                            <strong>Java</strong> est le langage principal de notre projet. Grâce à sa portabilité et sa robustesse, il nous permet de développer une application stable et performante pour la simulation boursière.
+                        </p>
+                    </div>
+                    <!-- Java Swing -->
+                    <div class="card">
+                        <i class="fas fa-window-restore"></i>
+                        <h3>Java Swing</h3>
+                        <p>
+                            <strong>Java Swing</strong> est utilisé pour créer l'interface graphique de notre application. Il offre des composants intuitifs pour concevoir une interface utilisateur conviviale et réactive.
+                        </p>
+                    </div>
+                    
+                    
+                    <!-- Événements en temps réel -->
+                    <div class="card">
+                        <i class="fas fa-bolt"></i>
+                        <h3>Événements en Temps Réel</h3>
+                        <p>
+                            Des <strong>événements en temps réel</strong> sont simulés pour reproduire les fluctuations du marché boursier. Cela inclut des crises économiques, des annonces de dividendes, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <p>
+                        <strong>Pourquoi Java et Java Swing ?</strong> Java est un langage polyvalent et largement utilisé dans le développement d'applications de gestion. Couplé à Java Swing, il permet de créer des interfaces graphiques riches et interactives, parfaites pour notre simulation boursière.
+                    </p>
+                </div>
+                <figure class="image-container">
+                    <img src="Images/java.png" alt="Java et Java Swing"/>
+                    <figcaption>Java et Java Swing en action</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Section Exemple -->
+        <section id="exemple" class="section bg-light">
+            <div class="container">
+                <h2>Exemple</h2>
+                <p>
+                    Voici un exemple de scénario dans notre simulation :
+                </p>
+                <div class="example">
+                    <p>
+                        <strong>Scénario :</strong> Une crise économique survient, affectant le secteur technologique. Les actions des entreprises technologiques chutent de 20 %. Les utilisateurs doivent décider s'ils vendent leurs actions ou attendre une reprise.
+                    </p>
+                    <p>
+                        <strong>Résultat :</strong> Les utilisateurs qui ont vendu rapidement ont limité leurs pertes, tandis que ceux qui ont attendu ont vu leurs actions remonter après quelques mois.
+                    </p>
+                </div>
+                <figure class="image-container">
+                    <img src="Images/chute.jpg" alt="Exemple de Scénario"/>
+                    <figcaption>Exemple de Scénario</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Projet de Génie Logiciel. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <nav class="sidebar">
+                <ul>
+                    <li><a href="#def">Définition</a></li>
+                    <li><a href="#fonction">Les fonctionnalités</a></li>
+                    <li><a href="#tech">Les technologies</a></li>
+                    <li><a href="#exemple">Exemple</a></li>
+                </ul>
+            </nav>
+            <a href="#hero" class="back-to-top">
+                <div class="circle">
+                    <i class="fas fa-arrow-up"></i>
+                </div>
+            </a>
+        </div>
+    </footer>
+    
+
+
+ 
+</body>
+</html>
