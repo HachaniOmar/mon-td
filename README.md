@@ -7,10 +7,13 @@ Ce projet est un **simulateur de bourse** conçu pour permettre aux utilisateurs
 
 - `index.html` : Page d'accueil du site web
 - `projet.html` : Présentation détaillée du projet
-- `equipe.html` : Page de présentation de l'équipe
+- `presentation.html` : Page de présentation de l'équipe
+- `evolution.html` : Page d'avancement du projet
+- `objectif.html` : Page de présentation des objéctifs du projet
 - `contactus.html` : Page de contact
 - `style.css` : Fichier de style pour le design du site
 - `Images/` : Dossier contenant les images utilisées sur le site
+- `cahier_de_charges.pdf` : PDF du cahier de charges du projet
 
 ##  Technologies Utilisées
 
@@ -33,9 +36,9 @@ Section de contact avec informations de l'université
 
 ## Contact
 
-- **Développeurs** : [Omar Hachani](mailto:omar.hachani@etu.cyu.fr)
-                     [Bacem Maziz](mailto:bacem.maziz@etu.cyu.fr)
-                     [Arslane Mohamed Hamlat](mailto:mohamed-arslane.hamlat@etu.cyu.fr)
+- **Développeurs** : [Omar Hachani](omar.hachani@etu.cyu.fr)
+                     [Bacem Maziz](bacem.maziz@etu.cyu.fr)
+                     [Arslane Mohamed Hamlat](mohamed-arslane.hamlat@etu.cyu.fr)
   
 - **GitHub** : [HachaniOmar](https://github.com/HachaniOmar)
                [Arslane24](https://github.com/HachaniOmar)
