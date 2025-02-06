@@ -41,8 +41,8 @@ Section de contact avec informations de l'université
                      [Arslane Mohamed Hamlat](mohamed-arslane.hamlat@etu.cyu.fr)
   
 - **GitHub** : [HachaniOmar](https://github.com/HachaniOmar)
-               [Arslane24](https://github.com/HachaniOmar)
-               [BacemMaziz](https://github.com/HachaniOmar)
+               [Arslane24](https://github.com/Arslane24)
+               [BacemMaziz](https://github.com/BacemMaziz)
 
 ---
 **Bon courage pour vos corrections!**
